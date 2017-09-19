@@ -1,9 +1,14 @@
-h1.about-minds {
+h1.about-minds, p.minds-description {
   color: white;
+  text-align: left;
+  text-shadow: black 0.1em 0.1em 0.1em;
 }
 
-.main-header {
-  background-color: #4286f4;
+a.navbar-brand img {
+  height: 40px;
+  vertical-align: 3px;
+  position: absolute;
+  top: 6px;
 }
 
 body {
@@ -11,17 +16,13 @@ body {
   padding-bottom: 20px;
 }
 
-
 body.main {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#logo {
-  height: 30px;
-  padding-bottom: 1px;
+footer p, a{
+  color: black;
 }
-
-
 .jumbotron {
     background-image: url(/img/MINDS_Banner.jpg);
     background-size: cover;
