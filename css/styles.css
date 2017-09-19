@@ -30,3 +30,13 @@ footer p, a{
     text-shadow: black 0.2em;
 
 }
+
+.thumbnail img {
+  border-radius: 0.5px;
+}
+
+.panel-success > .panel-footer {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
