@@ -26,5 +26,6 @@ body.main {
     background-image: url(/img/MINDS_Banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-shadow: black 0.2em;
 
 }
