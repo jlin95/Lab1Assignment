@@ -4,7 +4,7 @@ p.minds-description {
   text-shadow: black 0.1em 0.1em 0.1em;
 }
 
-p.join-us, p.services {
+p.join-us, p.services, p.about-minds, p.donate-text {
   color: white;
   text-align: center;
   text-shadow: black 0.1em 0.1em 0.1em;
@@ -61,6 +61,7 @@ footer p, a{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .jumbotron.get-involved {
   background-image: url(/img/get_involved.jpg);
   background-size: cover;
@@ -69,6 +70,12 @@ footer p, a{
 
 .jumbotron.services {
   background-image: url(/img/our_services.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron.donate {
+  background-image: url(/img/donate_now.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
