@@ -1,4 +1,4 @@
-h1.about-minds, p.minds-description {
+p.minds-description, p.join-us {
   color: white;
   text-align: left;
   text-shadow: black 0.1em 0.1em 0.1em;
@@ -23,20 +23,70 @@ body.main {
 footer p, a{
   color: black;
 }
-.jumbotron {
-    background-image: url(/img/MINDS_Banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-shadow: black 0.2em;
 
+.donate {
+  background-color: #186db4;
+  height: 360px;
+  background-size: cover;
 }
 
-.thumbnail img {
-  border-radius: 0.5px;
+
+.donate h1 {
+  text-align: center;
+  padding-top: 40px;
+  color: #effcff;
+}
+
+.donate p {
+  text-align: center;
+  color: #effcff;
+  font-size: 16px;
+}
+.jumbotron {
+  background-image: url(/img/MINDS_Banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: black 0.2em;
+}
+
+.jumbotron.get-involved {
+  background-image: url(/img/get_involved.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron.get-involved h1, .jumbotron h1{
+  text-align: center;
+  color: white;
+  text-shadow: black 0.05em 0.05em 0.05em;
+}
+
+.information .col-md-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.information .col-md-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+  color: #90b8db;
+}
+
+.about h1 small {
+  color: #186db4;
 }
 
 .panel-success > .panel-footer {
     color: #468847;
     background-color: #dff0d8;
     border-color: #d6e9c6;
+}
+
+
+.footer {
+  margin-top: 20px;
 }
