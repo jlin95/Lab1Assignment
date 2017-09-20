@@ -1,6 +1,12 @@
-p.minds-description, p.join-us {
+p.minds-description {
   color: white;
   text-align: left;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+p.join-us, p.services {
+  color: white;
+  text-align: center;
   text-shadow: black 0.1em 0.1em 0.1em;
 }
 
@@ -55,6 +61,12 @@ footer p, a{
   background-repeat: no-repeat;
 }
 
+.jumbotron.services {
+  background-image: url(/img/our_services.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .jumbotron.get-involved h1, .jumbotron h1{
   text-align: center;
   color: white;
@@ -76,16 +88,23 @@ footer p, a{
   color: #90b8db;
 }
 
-.about h1 small {
+.about h1 small, .container.help h2, .services h1 small {
   color: #186db4;
 }
+
+.container.help h2 {
+  text-align: center;
+}
+
+/*.row.service-thumbnail.col-sm-4 {
+  border-color: blue;
+}*/
 
 .panel-success > .panel-footer {
     color: #468847;
     background-color: #dff0d8;
     border-color: #d6e9c6;
 }
-
 
 .footer {
   margin-top: 20px;
