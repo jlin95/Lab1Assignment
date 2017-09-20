@@ -48,6 +48,7 @@ footer p, a{
   color: #effcff;
   font-size: 16px;
 }
+
 .jumbotron {
   background-image: url(/img/MINDS_Banner.jpg);
   background-size: cover;
@@ -55,6 +56,11 @@ footer p, a{
   text-shadow: black 0.2em;
 }
 
+.jumbotron.about-us {
+  background-image: url(/img/about_us.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .jumbotron.get-involved {
   background-image: url(/img/get_involved.jpg);
   background-size: cover;
@@ -96,15 +102,25 @@ footer p, a{
   text-align: center;
 }
 
-/*.row.service-thumbnail.col-sm-4 {
-  border-color: blue;
-}*/
-
-.panel-success > .panel-footer {
-    color: #468847;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+.panel {
+  border: none;
 }
+
+/* for get-involved page, different colors for the panel headers*/
+.panel-2 > .panel-heading {
+  background-color: #000000;
+}
+.panel-3 > .panel-heading {
+  background-color: #333A56;
+}
+.panel-4 > .panel-heading {
+  background-color: #52658F;
+}
+.panel-5 > .panel-heading {
+  background-color: #33007b;
+}
+/*end of css for panels*/
+
 
 .footer {
   margin-top: 20px;
