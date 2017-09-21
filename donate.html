@@ -54,7 +54,7 @@
       <form class="form-horizontal" action="" name="donate">
           <legend>MINDS Donation Form</legend>
           <div class="form-group">
-            <label for="email" class="col-lg-2 control-label">Email</label>
+            <label for="email" class="col-xs-2 control-label">Email</label>
             <div class="col-lg-10">
               <input type="text" class="form-control" name="email" id="email" placeholder="john@gmail.com">
             </div>
@@ -72,18 +72,21 @@
             </div>
           </div>
           <div class="form-group">
-            <label class="col-lg-2 control-label">Payment Type</label>
+            <label for="ccNumber" class="col-lg-2 control-label">Credit Card Number</label>
             <div class="col-lg-10">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="optionsRadios" id="payment1" value="payment1" checked>Credit Card</label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="optionsRadios" id="payment2" value="payment2">
-                    Bank Account
-                  </label>
-                </div>
+              <input type="number" class="form-control" name="ccNumber" id="ccNumber" max="999999999999" placeholder="1234456778900123">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="expDate" class="col-lg-2 control-label">Expiration Date(MM/YYYY)</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" name="expDate" id="expDate" placeholder="01/2100">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cvv" class="col-lg-2 control-label">CVV Number</label>
+            <div class="col-lg-10">
+              <input type="number" class="form-control" max="999" name="cvv" id="cvv">
             </div>
           </div>
           <div class="form-group">
@@ -109,7 +112,6 @@
             <p><a href="mailto:minds@minds.org.sg">Contact Us</a></p>
             <p><a href="http://www.minds.org.sg/Career.html">Careers at MINDS</a></p>
             <p><a href="https://www.facebook.com/weloveminds/">Facebook</a></p>
-            <p>All Rights Reserved - 2017.</p>
           </div>
         </div>
       </footer>

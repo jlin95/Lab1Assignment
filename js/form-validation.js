@@ -1,16 +1,13 @@
 $(function() {
-  console.log("tested");
-  // Initialize form validation on the registration form.
-  // It has the name attribute "registration"
   $("form[name='donate']").validate({
-    // Specify validation rules
     rules: {
-      // The key name on the left side is the name attribute
-      // of an input field. Validation rules are defined
-      // on the right side
+
       name: "required",
       email: "required",
       donationAmount: "required",
+      ccNumber: "required",
+      cvv: "required",
+      expDate: "required",
       email: {
         required: true,
         email: true
@@ -20,9 +17,12 @@ $(function() {
       }
     },
     messages: {
-      name: "Please enter your firstname",
+      name: "Please enter your first name",
       email: "Please enter a valid email address",
       donationAmount: "Please enter a valid donation amount",
+      ccNumber: "Please enter a valid credit card number",
+      expDate: "Please enter a valid expiration date",
+      cvv: "Please enter a valid 3-digit CVV number",
     },
 
     submitHandler: function(form) {

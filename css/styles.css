@@ -1,4 +1,4 @@
-form, footer, .donate, .container.information, .container.help, .container.services, .container.about > p, ul, li, h4, a {
+form, footer, .donate, .container.information, .container.help, .container.services, .container.about, .container.about-us > p, ul, li, h4, a {
   font-family:  "Segoe UI", "Helvetica Neue", "Source Sans Pro", sans-serif;
 }
 
