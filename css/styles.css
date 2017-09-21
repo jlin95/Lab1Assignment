@@ -82,32 +82,32 @@ footer p, a{
 }
 
 .jumbotron {
-  background-image: url(/img/MINDS_Banner.jpg);
+  background-image: url(img/MINDS_Banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   text-shadow: black 0.2em;
 }
 
 .jumbotron.about-us {
-  background-image: url(/img/about_us.jpg);
+  background-image: url(img/about_us.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .jumbotron.get-involved {
-  background-image: url(/img/get_involved.jpg);
+  background-image: url(img/get_involved.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .jumbotron.services {
-  background-image: url(/img/our_services.jpg);
+  background-image: url(img/our_services.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .jumbotron.donate {
-  background-image: url(/img/donate_now.jpg);
+  background-image: url(img/donate_now.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Source Sans Pro", sans-serif;
