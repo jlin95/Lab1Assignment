@@ -1,3 +1,14 @@
+footer, .donate, .container.information, .container.help, .container.services, .container.about > p, ul, li, h4, a {
+  font-family:  "Segoe UI", "Helvetica Neue", "Source Sans Pro", sans-serif;
+}
+
+nav > li, a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
 p.minds-description {
   color: white;
   text-align: left;
@@ -78,6 +89,7 @@ footer p, a{
   background-image: url(/img/donate_now.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .jumbotron.get-involved h1, .jumbotron h1{
