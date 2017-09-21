@@ -107,9 +107,7 @@ footer p, a{
 }
 
 .jumbotron.donate-now {
-  /*background-image: url(../img/donate_now.jpg) !important; */
-  background-image: url(../img/our_services.jpg);
-
+  background-image: url(../img/donate_now.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Source Sans Pro", sans-serif;
